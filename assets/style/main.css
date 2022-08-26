@@ -1,0 +1,44 @@
+header h1{
+  font-size: 2rem;
+  font-family: monospace;
+  font-style: italic;
+}
+
+.book-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .book {
+    width: 12rem;
+  }
+  
+  .status {
+    font-style: italic;
+  }
+  
+  .book-cover {
+    max-height: 15rem;
+    max-width: 10rem;
+    object-fit: cover;
+    border: 3px solid rgb(201, 201, 201);
+    margin: auto;
+    padding: 2px;
+  }
+  .card{
+    width: 200px;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+  .card .btn{
+    border-radius: 50px;
+    font-size: 0.8rem;
+    width: 60%;
+    margin: auto;
+  }
+  footer{
+    text-align: center;
+    height: 3rem;
+    color:rgb(120, 120, 120)
+  }
