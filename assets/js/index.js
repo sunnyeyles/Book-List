@@ -98,7 +98,7 @@ sortNameAlphabetically(books).forEach((e) => {
   author.textContent = reverseAuthorNames(e)
   
   // create button
-  const link = document.createElement("a")
+  const link = document.createElement("button")
   link.classList.add("btn")
   link.classList.add(e.alreadyRead ? "btn-secondary" : "btn-warning")
   link.textContent = e.alreadyRead ? "already read" : "not yet read"
